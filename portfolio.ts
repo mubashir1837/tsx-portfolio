@@ -13,7 +13,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Mubashir Ali",
-  title: "Greetings, I'm Mubashir Ali",
+  title: "Hello I'm Mubashir Ali",
   description:
     " I am proudly representing the breathtaking region of Gilgit Baltistan, Pakistan and currently based in the vibrant city of Islamabad, Pakistan.",
   resumeLink:
@@ -342,31 +342,34 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "Molecular visualization",
-    desc: "I have done visualization of many biological protein molecules",
+    name: "Ecommerce Website",
+    desc: "This is and ecommerce website designed with HTML, CSS and JavaScript",
+    link: "https://ecommerce-m.vercel.app",
   },
   {
     name: "Bioinformatics",
-    desc: "I used many languages related to Bioinformatic such as PyMol, SciPy, and R.",
+    desc: "I completed multiple projects by deep learning in Bioinformatics.",
+    link: "/",
   },
   {
-    name: "Python Introductory Course",
+    name: "Food ordering app",
     desc: "Created a comprehensive Python course and worked on loops, data structure, OOPs etc.",
+    link: "https://foodkivi.netlify.app",
   },
   {
-    name: "Analysis of Amylose",
-    desc: "Analysis of amylose by using PyMOL.",
-    link: "https://github.com/mubashir1837/amylose",
+    name: "Calculator",
+    desc: "This is a calculator app made with HTML, CSS and JavaScript.",
+    link: "https://calculator-j.vercel.app",
   },
   {
-    name: "Responsive Website Designer",
-    desc: "I am a web developer from Pakistan.",
-    link: "https://awesome-portfolio2024.vercel.app/",
+    name: "Responsive Portfolio website",
+    desc: "You can try this portfolio website, its awesome.",
+    link: "https://mubashirali.vercel.app/",
   },
   {
-    name: "Canva designer",
-    desc: "I have created my designs on canva",
-    link: "https://portfolio-mubashir1837.my.canva.site/mubashir-1837",
+    name: "Portfolio",
+    desc: "See this awesome portfolio, and try it yourself",
+    link: "https://awesome-portfolio2024.vercel.app",
     
 	
   },

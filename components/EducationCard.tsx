@@ -9,9 +9,9 @@ const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBulle
       <CardBody>
         <div className="d-flex px-3">
           <div className="pl-4">
-            <h5 className="text-info">{schoolName}</h5>
+            <h5 className="text-dark">{schoolName}</h5>
             <h6>{subHeader}</h6>
-            <Badge color="info" className="mr-1">
+            <Badge color="dark" className="mr-1">
               {duration}
             </Badge>
             {grade && (
