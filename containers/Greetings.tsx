@@ -14,7 +14,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-dark">
+          <div className="shape shape-style-1 bg-black">
             <span />
             <span />
             <span />
@@ -40,15 +40,15 @@ const Greetings = () => {
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
+                          <i className="fa fa-f" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Download CV</span>
                       </Button>
                     </div>
                   )}
                 </Col>
-                <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding2.json" />
+                <Col lg="6" >
+                  <GreetingLottie animationPath="/lottie/greeting.json" />
                 </Col>
               </Row>
             </div>

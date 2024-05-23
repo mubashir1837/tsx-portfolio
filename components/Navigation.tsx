@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <>
       <header className="header-global">
-        <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
+        <Navbar className="navbar-main navbar-transparent navbar-dark headroom" expand="lg" id="navbar-main">
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
               <h2 className="text-yellow" id="nav-title">

@@ -20,6 +20,9 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
               width: "8rem",
               height: "8rem",
               borderRadius: "50%",
+              backgroundColor: "white",
+
+
             }}
             className="shadow mb-3"
             alt={companyLogo}
