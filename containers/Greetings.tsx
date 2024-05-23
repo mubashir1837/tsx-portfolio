@@ -40,7 +40,7 @@ const Greetings = () => {
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-f" />
+                          <i className="fa fa-file" />
                         </span>
                         <span className="btn-inner--text">Download CV</span>
                       </Button>
@@ -48,7 +48,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6" >
-                  <GreetingLottie animationPath="/lottie/greeting.json" />
+                  <GreetingLottie animationPath="/lottie/developer.json" />
                 </Col>
               </Row>
             </div>

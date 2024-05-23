@@ -9,9 +9,9 @@ const Skills = () => {
   return (
     skillsSection && (
       <Fade bottom duration={2000}>
-        <Container className="text-center my-5 section section-lg">
-          <h1 className="h1">{skillsSection.title}</h1>
-          <p className="lead">{skillsSection.subTitle}</p>
+        <Container className="text-center my-5 section section-lg ">
+          <h1 className="h1 text-black">{skillsSection.title}</h1>
+          <p className="lead text-dark">{skillsSection.subTitle}</p>
           {skillsSection.data.map((section, index) => {
             return (
               <Row className="my-5" key={index}>
@@ -19,13 +19,13 @@ const Skills = () => {
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
-                  <h3 className="h3 mb-2">{section.title}</h3>
-                  <div className="d-flex justify-content-center flex-wrap mb-2">
+                  <h3 className="h3 mb-2 text-black">{section.title}</h3>
+                  <div className="d-flex justify-content-center flex-wrap mb-2 text-dark">
                     {section.softwareSkills.map((skill, i) => {
                       return (
                         <Fragment key={i}>
                           <div
-                            className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
+                            className="icon icon-lg icon-shape shadow-sm rounded-circle m-1 bg-light  "
                             id={skill.skillName.replace(/\s/g, "")}
                           >
                             <Icon icon={skill.iconifyTag} data-inline="false"></Icon>
@@ -39,7 +39,7 @@ const Skills = () => {
                   </div>
                   <div>
                     {section.skills.map((skill, i) => {
-                      return <p key={i}>{skill}</p>;
+                      return <p className="text-black" key={i}>{skill}</p>;
                     })}
                   </div>
                 </Col>

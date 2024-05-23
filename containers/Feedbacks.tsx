@@ -8,7 +8,6 @@ import { feedbacks } from "../portfolio";
 
 const Feedbacks = () => {
   return (
-    // Check if `feedbacks` is not null or undefined before rendering
     feedbacks && (
       <Fade bottom duration={2000}>
         <section className="section section-lg bg-gray">
@@ -23,7 +22,7 @@ const Feedbacks = () => {
                 <h4 className="display-3 text-dark">Clients</h4>
               </div>
             </div>
-            <Row className="g-3">
+            <Row className="g-3 ">
               {/* Map over `feedbacks` only if it's not null or undefined */}
               {feedbacks.map((data, i) => (
                 <Col key={i} lg={6}>

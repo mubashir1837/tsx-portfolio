@@ -42,7 +42,7 @@ export const skillsSection = {
   data: [
     {
       title: "Bioinformatics Tools and Algorithms",
-      lottieAnimationFile: "/lottie/skills/analytics.json",
+      lottieAnimationFile: "/lottie/skills/data.json",
       skills: [
         emoji(
           "⚡Familiarity with bioinformatics tools and algorithms for sequence analysis, alignment, assembly, and annotation."
@@ -94,7 +94,7 @@ export const skillsSection = {
     
     {
       title: "Programming and Web Development",
-      lottieAnimationFile: "/lottie/skills/fullstack3.json",
+      lottieAnimationFile: "/lottie/skills/web.json",
       skills: [
         ,
         emoji(
@@ -164,7 +164,7 @@ export const skillsSection = {
     },
     {
       title: "Communication Skills and Project Management",
-      lottieAnimationFile: "/lottie/skills/cloud.json",
+      lottieAnimationFile: "/lottie/skills/communicate.json",
       skills: [
         emoji("⚡ Effective communication skills to collaborate with biologists, present findings, and write reports or scientific papers.."),
         emoji(
@@ -348,12 +348,12 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Bioinformatics",
-    desc: "I completed multiple projects by deep learning in Bioinformatics.",
+    desc: "I completed multiple projects by using deep learning and machinelearning in Bioinformatics.",
     link: "/",
   },
   {
     name: "Food ordering app",
-    desc: "Created a comprehensive Python course and worked on loops, data structure, OOPs etc.",
+    desc: "Created a food ordering website using HTML, CSS and JavaScript.",
     link: "https://foodkivi.netlify.app",
   },
   {
@@ -377,17 +377,29 @@ export const projects: ProjectType[] = [
 
  export const feedbacks: FeedbackType[] = [
    {
-     name: "/",
-     role: "",
+     name: "Sadaqat Hussain",
+     role: "Neuro Scientist",
      feedback:
-      "",
+      " ⭐⭐⭐⭐⭐",
+  },  
+   {
+     name: "Zulfiqar Ali",
+     role: "Data Analyst",
+     feedback:
+     " ⭐⭐⭐⭐⭐",
+  },  
+   {
+     name: "Muhammad Nawaz Sharif",
+     role: "Lecturer",
+     feedback:
+     " ⭐⭐⭐⭐⭐",
   },  
  ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: "Mubashir Ali",
-  description: "This is my Awesome Portfolio website",
+  description: "This is my awesome portfolio website",
   author: "Mubashir Ali",
   image: "https://avatars.githubusercontent.com/u/163585695?v=4",
   url: "https://mubashirali.vercel.app",

@@ -11,12 +11,12 @@ const Proficiency = () => {
         <Fade bottom duration={2000}>
           <Row>
             <Col lg="6">
-              <h1 className="h1">Proficiency</h1>
+              <h1 className="h1 text-black font-bold"> Proficiency</h1>
               {SkillBars.map(skill => {
                 return (
                   <div className="progress-info" key={skill.Stack}>
-                    <div className="progress-label">
-                      <span>{skill.Stack}</span>
+                    <div className="progress-label ">
+                      <span className="text-dark">{skill.Stack}</span>
                     </div>
                     <div className="progress-percentage">
                       <span>{skill.progressPercentage}%</span>
@@ -24,7 +24,7 @@ const Proficiency = () => {
                     <Progress
                       max="100"
                       value={skill.progressPercentage}
-                      color="info"
+                      color="dark"
                       role="progressbar"
                       aria-label={skill.Stack}
                     />
@@ -33,7 +33,7 @@ const Proficiency = () => {
               })}
             </Col>
             <Col lg="6">
-              <GreetingLottie animationPath="/lottie/bubbles.json" />
+              <GreetingLottie animationPath="/lottie/skil.json" />
             </Col>
           </Row>
         </Fade>

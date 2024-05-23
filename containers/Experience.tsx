@@ -12,12 +12,12 @@ const Experience = () => {
           <Container>
             <div className="d-flex p-4">
               <div>
-                <div className="icon icon-lg icon-shape bg-gray shadow rounded-circle text-dark">
-                  <i className="ni ni-briefcase-24 text-dark" />
+                <div className="icon icon-lg icon-shape bg-light shadow rounded-circle text-dark">
+                  <i className="ni ni-briefcase-24 text-black" />
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-dark">Certification</h4>
+                <h4 className="display-3 text-black">Certification</h4>
               </div>
             </div>
             <Row className="row-grid align-items-start">
