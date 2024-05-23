@@ -9,11 +9,16 @@ body{
 }
 
 
-/* .github-section{ 
+.github-section{ 
   background: repeating-linear-gradient(45deg, #18c0cc, #137fa0, #137e91, #0f4e6b);
   height: 100vh;
   margin: 0;
-} */
+}
+.greeting-bg{ 
+  background: repeating-linear-gradient(45deg, #1cd8e6, #189ec7, #1794aa, #146a92);
+  height: 100vh;
+  margin: 0;
+}
 
 /* 
 body {

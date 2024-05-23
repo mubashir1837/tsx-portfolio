@@ -29,7 +29,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
               {link ? (
                 <Button
                   className="btn-icon"
-                  color="dark"
+                  color="info"
                   href={link}
                   target="_blank"
                   rel="noopener"

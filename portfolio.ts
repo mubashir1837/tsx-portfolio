@@ -332,7 +332,7 @@ export const experience: ExperienceType[] = [
     role: "Courses",
     company: "Coursera",
     companyLogo: "/img/icons/common/Coursera.png",
-    date: "September 2024 -  Present",
+    date: "September 2023 -  Present",
     desc: "I have completed multiple courses from cousera.",
     descBullets: [
       "Bioinformatics, Health and Food, Data Science and Artificial Intelligence.",
@@ -402,7 +402,7 @@ export const seoData: SEODataType = {
   description: "This is my awesome portfolio website",
   author: "Mubashir Ali",
   image: "https://avatars.githubusercontent.com/u/163585695?v=4",
-  url: "https://mubashirali.vercel.app",
+  url: "https://mubashir-ale.vercel.app",
   keywords: [
     "Mubashir",
     "Mubashir Ali Portfolio",
