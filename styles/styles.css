@@ -1,0 +1,4 @@
+body > div:first-child {
+  overflow-x: hidden;
+}
+ 
