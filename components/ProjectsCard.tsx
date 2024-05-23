@@ -6,7 +6,7 @@ import { ProjectType } from "../types/sections";
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
+      <Card className="shadow-lg--hover shadow mt-4 bg-light">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -21,7 +21,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   rel="noopener"
                   aria-label="Github"
                 >
-                  <span className="btn-inner--icon">
+                  <span className="btn-inner--icon ">
                     <i className="fa fa-github" />
                   </span>
                 </Button>
@@ -29,14 +29,14 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
               {link ? (
                 <Button
                   className="btn-icon"
-                  color="success"
+                  color="dark"
                   href={link}
                   target="_blank"
                   rel="noopener"
                   aria-label="Twitter"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-arrow-right mr-2" />
+                    <i className="fa fa-external-link mr-2" />
                   </span>
                   <span className="nav-link-inner--text ml-1">Check</span>
                 </Button>

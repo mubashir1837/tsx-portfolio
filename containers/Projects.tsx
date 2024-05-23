@@ -8,16 +8,16 @@ const Projects = () => {
   return (
     projects && (
       <Fade bottom duration={2000}>
-        <section className="section section-lg">
+        <section className="section section-lg bg-gray">
           <Container>
             <div className="d-flex p-4">
               <div>
-                <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-laptop text-info" />
+                <div className="icon icon-lg icon-shape bg-light shadow rounded-circle text-dark">
+                  <i className="ni ni-laptop text-dark" />
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">My works</h4>
+                <h4 className="display-3 text-dark ">Projects</h4>
               </div>
             </div>
             <Row className="row-grid align-items-center">
