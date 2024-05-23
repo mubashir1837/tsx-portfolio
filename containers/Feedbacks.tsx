@@ -10,7 +10,7 @@ const Feedbacks = () => {
   return (
     feedbacks && (
       <Fade bottom duration={2000}>
-        <section className="section section-lg bg-gray">
+        <section className="section section-lg ">
           <Container>
             <div className="d-flex p-4">
               <div>

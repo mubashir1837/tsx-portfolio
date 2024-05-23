@@ -3,5 +3,51 @@ body > div:first-child {
 }
 
 body{
-  background-color: rgb(140, 153, 168);
+  background: linear-gradient(to right, #f5937a, #feb47b, #8eaeeb, #9cebe5);
+    height: 100vh;
+    margin: 0;
 }
+
+
+/* .github-section{ 
+  background: repeating-linear-gradient(45deg, #18c0cc, #137fa0, #137e91, #0f4e6b);
+  height: 100vh;
+  margin: 0;
+} */
+
+/* 
+body {
+  
+  background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+  height: 100vh;
+  margin: 0;
+} */
+
+/* body {
+  background: conic-gradient(from 0deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+  height: 100vh;
+  margin: 0;
+} */
+
+/* body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+  height: 100vh;
+  margin: 0;
+} */
+
+
+/* body {
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+  height: 100vh;
+  margin: 0;
+} */
+/* 
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  height: 100vh;
+  margin: 0;
+} */
+/* 
+body{
+  background-color: rgb(140, 153, 168);
+} */

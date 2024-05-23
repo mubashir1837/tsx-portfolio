@@ -16,15 +16,15 @@ const Proficiency = () => {
                 return (
                   <div className="progress-info" key={skill.Stack}>
                     <div className="progress-label ">
-                      <span className="text-dark">{skill.Stack}</span>
+                      <span className="text-black">{skill.Stack}</span>
                     </div>
                     <div className="progress-percentage">
-                      <span>{skill.progressPercentage}%</span>
+                      <span className="text-dark">{skill.progressPercentage}%</span>
                     </div>
                     <Progress
                       max="100"
                       value={skill.progressPercentage}
-                      color="dark"
+                      color="info"
                       role="progressbar"
                       aria-label={skill.Stack}
                     />
