@@ -1,4 +1,5 @@
 body > div:first-child {
   overflow-x: hidden;
+  background-color: rgb(142, 158, 179);
 }
  
