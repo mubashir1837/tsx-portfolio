@@ -21,8 +21,8 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
               <h2 className="text-white">Get in Touch!</h2>
               <p className="lead text-white mt-3">I am currently exploring exciting new opportunities and eagerly anticipate receiving thoughtful messages in my inbox. Whether you have inquiries, potential job opportunities, or simply wish to connect, rest assured, I will respond promptly and warmly!</p>
               <p className="text-white mt-3">{bio}</p>
-              <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                <i className="ni ni-pin-3 text-info mr-2" />
+              <div className="my-3 icon-shape bg-gradient-white shadow rounded text-dark">
+                <i className="ni ni-pin-3 text-danger mr-2" />
                 {location}
               </div>
               <SocialLinks />
