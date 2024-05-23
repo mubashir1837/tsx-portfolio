@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBullets }: EducationType) => {
   return (
-    <Card className="shadow-lg--hover shadow mt-4">
+    <Card className="shadow-lg--hover shadow mt-4 bg-light">
       <CardBody>
         <div className="d-flex px-3">
           <div className="pl-4">

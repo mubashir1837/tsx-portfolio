@@ -8,16 +8,16 @@ const Education = () => {
   return (
     educationInfo && (
       <Fade bottom duration={2000}>
-        <section className="section pb-0 bg-light my-5 ">
+        <section className="section pb-0 bg-gray my-5 ">
           <Container>
             <div className="d-flex px-3">
               <div>
-                <div className="icon icon-lg icon-shape bg-gray shadow rounded-circle text-dark">
+                <div className="icon icon-lg icon-shape bg-light shadow rounded-circle text-">
                   <i className="ni ni-hat-3 text-dark" />
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-white">Education</h4>
+                <h4 className="display-3 text-black">Education</h4>
               </div>
             </div>
             <Row className="row-grid align-items-center">
@@ -30,8 +30,8 @@ const Education = () => {
               })}
             </Row>
           </Container>
-          <div className="separator separator-bottom separator-skew zindex-100">
-            {/* <svg
+          {/* <div className="separator separator-bottom separator-skew zindex-100">
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
               version="1.1"
@@ -40,8 +40,8 @@ const Education = () => {
               y="0"
             >
               <polygon className="blue" points="2560 0 2560 100 0 100" />
-            </svg> */}
-          </div>
+            </svg>
+          </div> */}
         </section>
       </Fade>
     )

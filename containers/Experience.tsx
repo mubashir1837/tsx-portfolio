@@ -12,7 +12,7 @@ const Experience = () => {
           <Container>
             <div className="d-flex p-4">
               <div>
-                <div className="icon icon-lg icon-shape bg-light shadow rounded-circle text-dark">
+                <div className="icon icon-lg icon-shape bg-gray shadow rounded-circle text-dark">
                   <i className="ni ni-briefcase-24 text-dark" />
                 </div>
               </div>
