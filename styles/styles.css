@@ -10,10 +10,10 @@ body{
 
 
 .github-section{ 
-  background: repeating-linear-gradient(45deg, #1cd8e6, #189ec7, #1794aa, #146a92);
+  background: repeating-linear-gradient(45deg, #30a58c, #3e36aa, #5324a8, #2d8cb8);
 }
 .greeting-bg{ 
-  background: repeating-linear-gradient(45deg, #1cd8e6, #189ec7, #1794aa, #146a92);
+  background: repeating-linear-gradient(45deg,  #30a58c, #3e36aa, #5324a8, #2d8cb8);
 }
 
 /* 
