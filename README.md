@@ -23,13 +23,9 @@ If you'd like to contribute to my portfolio website, you can follow these steps:
 
 4. **Yarn dev**
 5. Make your changes and enhancements.
-6. **Commit** your changes:
-    ```
-    git commit -am 'Added feature XYZ'
- 
-   ```
-7. **yarn build** for production environment to deploy
-8. **deployment** open vercel or netlify and deploy
+
+6. **yarn build** for production environment to deploy
+7. **deployment** open vercel or netlify and deploy
 
 Thank you for your contributions!
 
