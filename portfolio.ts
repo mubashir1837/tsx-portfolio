@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Mubashir Ali",
   title: "Hello I'm Mubashir Ali",
   description:
-    " I am proudly representing the breathtaking region of Gilgit Baltistan, Pakistan and currently based in the vibrant city of Islamabad, Pakistan.",
+    " As an undergraduate computational biologist and dedicated web application developer from Pakistan, I merge my passion for programming languages with cutting-edge biological research. Crafting elegant code, I weave intricate digital solutions, bridging science and technology. With each line written, I advance towards a future where innovation knows no bound.",
   resumeLink:
     "https://github.com/mubashir1837/Curriculum-Vitae/blob/main/Curriculum%20Vitae.pdf",
 };
