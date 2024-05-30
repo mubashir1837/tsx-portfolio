@@ -12,6 +12,8 @@ import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 
+
+
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
     <div>

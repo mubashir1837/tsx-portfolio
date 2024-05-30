@@ -3,12 +3,31 @@ import { greetings } from "../portfolio";
 import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
+import { TypeAnimation } from "react-type-animation";
+
+const AnimatedGreetingText = () => (
+  <TypeAnimation
+    sequence={[
+      'Mubashir Ali',
+      1000, 
+      'Programmer',
+      1000,
+      'Web developer',
+      1000,
+      'Bioinformatician',
+      1000
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+);
 
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
-  });
+  }, []);
 
   return (
     <main>
@@ -29,20 +48,23 @@ const Greetings = () => {
             <div className="col px-0">
               <Row>
                 <Col lg="6">
-                  <h1 className="display-3 text-white">{greetings.title + " "}</h1>
-                  <p className="lead text-white">{greetings.description}</p>
+                  <h1 className="display-3 gradient-text">{greetings.title + " "}</h1>
+                  <h1 className=" display-3  text-white gradient-text2 ">
+                  <AnimatedGreetingText />
+                  </h1>
+                  <p className=" lead text-white ">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1 "
                         color="default"
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">Download CV</span>
+                        <span className="btn-inner--text ">Download CV</span>
                       </Button>
                     </div>
                   )}
@@ -53,21 +75,7 @@ const Greetings = () => {
               </Row>
             </div>
           </Container>
-          {/* SVG separator */}
-          {/* <div className="separator separator-bottom separator-skew ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
-            </svg>
-          </div> */}
         </section>
-        {/* 1st Hero Variation */}
       </div>
     </main>
   );

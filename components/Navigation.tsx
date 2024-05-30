@@ -21,7 +21,7 @@ const Navigation = () => {
         <Navbar className="navbar-main navbar-transparent navbar-dark headroom" expand="lg" id="navbar-main">
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
-              <h2 className="text-yellow" id="nav-title">
+              <h2 className="text-light" id="nav-title">
                 {greetings.name}
               </h2>
             </NavbarBrand>
@@ -60,7 +60,7 @@ const Navigation = () => {
                       href={socialLinks.facebook}
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
+                      <i className="fa fa-facebook-square " />
                       <span className="nav-link-inner--text d-lg-none ml-2">Facebook</span>
                     </NavLink>
                   </NavItem>

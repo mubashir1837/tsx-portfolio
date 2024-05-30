@@ -13,12 +13,15 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Mubashir Ali",
-  title: "Hello I'm Mubashir Ali",
+  title: "Hello I'm",
   description:
-    " As an undergraduate computational biologist and dedicated web application developer from Pakistan, I merge my passion for programming languages with cutting-edge biological research. Crafting elegant code, I weave intricate digital solutions, bridging science and technology. With each line written, I advance towards a future where innovation knows no bound.",
+    "As an undergraduate computational biologist and dedicated web application developer from Pakistan, I merge my passion for programming languages with cutting-edge biological research. Crafting elegant code, I weave intricate digital solutions, bridging science and technology. With each line written, I advance towards a future where innovation knows no bound.",
   resumeLink:
     "https://github.com/mubashir1837/Curriculum-Vitae/blob/main/Curriculum%20Vitae.pdf",
 };
+
+// Other exports...
+
 
 export const openSource = {
   githubUserName: "mubashir1837",
@@ -399,7 +402,7 @@ export const projects: ProjectType[] = [
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: "Mubashir Ali",
-  description: "This is my awesome portfolio website",
+  description: "This is awesome portfolio website",
   author: "Mubashir Ali",
   image: "https://avatars.githubusercontent.com/u/163585695?v=4",
   url: "https://mubashir-ale.vercel.app",

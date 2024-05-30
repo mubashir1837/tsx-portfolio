@@ -16,6 +16,19 @@ body{
   background: repeating-linear-gradient(45deg,  #30a58c, #3e36aa, #5324a8, #2d8cb8);
 }
 
+.gradient-text {
+  background: repeating-linear-gradient(45deg, #f3a65f, #cde94e, #e44366, #2d8cb8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 900;
+}
+.gradient-text2 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+
 /* 
 body {
   
