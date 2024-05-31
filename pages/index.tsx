@@ -1,4 +1,8 @@
 import dynamic from "next/dynamic";
+import { openSource } from "../portfolio";
+import SEO from "../components/SEO";
+import { GithubUserType } from "../types";
+
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
@@ -8,11 +12,7 @@ const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"));
-import { openSource } from "../portfolio";
-import SEO from "../components/SEO";
-import { GithubUserType } from "../types";
-
-
+const AboutMe = dynamic(() => import("../containers/AboutMe")); 
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
@@ -20,6 +20,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <SEO />
       <Navigation />
       <Greetings />
+      <AboutMe /> 
       <Skills />
       <Proficiency />
       <Education />
@@ -30,10 +31,6 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
     </div>
   );
 }
-
-// Home.prototype = {
-//   githubProfileData: PropTypes.object.isRequired,
-// };
 
 export async function getStaticProps() {
   const githubProfileData: GithubUserType = await fetch(

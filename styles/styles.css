@@ -7,6 +7,10 @@ body{
     height: 100vh;
     margin: 0;
 }
+/* styles.css */
+.card-width {
+  width: 1000px; /* or specify a specific width like 80%, 500px, etc. */
+}
 
 
 .github-section{ 

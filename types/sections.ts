@@ -22,6 +22,15 @@ export type GreetingsType = {
   resumeLink?: string;
 };
 
+// * ABOUT ME
+export interface AboutMeType {
+  title: string;
+  description: string;
+  image: string;
+  bullets?: string[];
+}
+
+
 // * SKILLS SECTION
 
 type SoftwareSkillType = {
@@ -87,3 +96,5 @@ export type FeedbackType = {
   role: string;
   feedback: string;
 };
+
+

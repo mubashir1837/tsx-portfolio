@@ -1,4 +1,5 @@
 import emoji from "react-easy-emoji";
+import { AboutMeType } from './types/sections';
 import {
   EducationType,
   ExperienceType,
@@ -9,6 +10,7 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
@@ -21,6 +23,23 @@ export const greetings: GreetingsType = {
 };
 
 // Other exports...
+
+
+// portfolio.ts
+
+
+export const aboutMeInfo: AboutMeType[] = [
+  {
+    title: "Mubashir Ali",
+    description: "Welcome, I am Mubashir Ali, proudly representing the breathtaking region of Gilgit Baltistan, Pakistan and currently based in the vibrant city of Islamabad, Pakistan. My academic journey commenced at Uswa Public School Yultar Skardu, where I successfully completed my matriculation, establishing a solid foundation for my educational pursuits.   Driven by a profound interest in the medical sciences, I pursued and completed my Intermediate Pre- medical at Uswa Cadet College Islamabad, deepening my understanding of the intricacies within the field. Complementing my formal education, I engaged in a transformative learning experience with Peking University and IBM, undertaking courses in Bioinformatics and Artificial Intelligence through Coursera. This endeavor not only broadened my knowledge horizons but also equipped me with valuable skills at the intersection of biology and cutting-edge technology. Recognizing the evolving landscape of digital work, I further honed my expertise by completing a freelancing training program with Digiskills. This comprehensive training has empowered me with the tools and insights necessary to navigate the dynamic world of freelancing in todays digital age.  As a result, I stand as a well-rounded individual, blending a strong educational background with expertise in Bioinformatics, Artificial Intelligence, and freelancing, ready to contribute meaningfully to the ever-changing dynamics of science and digital work.",
+    image: "/images/pro-.jpg",
+    bullets: [
+      "Computational Biologist",
+      "Web Developer",
+      "Passionate about Programming",
+    ],
+  },
+];
 
 
 export const openSource = {
