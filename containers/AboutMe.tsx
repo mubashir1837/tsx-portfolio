@@ -3,12 +3,11 @@ import React from 'react';
 import AboutMeCard from '../components/AboutMeCard';
 import { aboutMeInfo } from '../portfolio';
 import { Container, Row, Col } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
+
 
 const AboutMe: React.FC = () => {
   return (
     aboutMeInfo && (
-      <Fade bottom duration={2000}>
         <section className="section pb-0 my-5">
           <Container>
             <div className="d-flex px-3">
@@ -30,7 +29,7 @@ const AboutMe: React.FC = () => {
             </Row>
           </Container>
         </section>
-      </Fade>
+      
     )
   );
 };

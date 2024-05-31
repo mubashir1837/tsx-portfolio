@@ -10,11 +10,11 @@ const AboutMeCard: React.FC<AboutMeType> = ({ title, description, image, bullets
       <CardBody className='w-10'>
         <div className="d-flex px-3">
           <div className="pl-4">
-            <h5 className="text-dark">{title}</h5>
-            <div style={{ width: '100px', height: '100px', position: 'relative' }}>
+            <div style={{ width: '200px', height: '200px', position: 'relative' }}>
               <Image src={image} alt={title} fill className="rounded-full object-cover border-4 border-white" />
             </div>
-            <p className="description mt-3">{description}</p>
+            <h3 className="text-dark mt-1  ">{title}</h3>
+            <p className="description mt-3  ">{description}</p>
             <ul>
               {bullets ? bullets.map((bullet, index) => <li key={index}>{bullet}</li>) : null}
             </ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import FeedbackCard from "../components/FeedbackCard";
-import Fade from "react-reveal/Fade";
+
 
 // Assuming `feedbacks` is exported from "../portfolio"
 import { feedbacks } from "../portfolio";
@@ -9,7 +9,7 @@ import { feedbacks } from "../portfolio";
 const Feedbacks = () => {
   return (
     feedbacks && (
-      <Fade bottom duration={2000}>
+      
         <section className="section section-lg ">
           <Container>
             <div className="d-flex p-4">
@@ -32,7 +32,7 @@ const Feedbacks = () => {
             </Row>
           </Container>
         </section>
-      </Fade>
+    
     )
   );
 };

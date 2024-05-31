@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, CardSubtitle, CardTitle } from "reactstrap";
-import Fade from "react-reveal/Fade";
 import { FeedbackType } from "../types/sections";
 
 const FeedbackCard = ({ name, role, feedback }: FeedbackType) => {
