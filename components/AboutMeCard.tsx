@@ -6,12 +6,12 @@ import { AboutMeType } from '../types/sections';
 
 const AboutMeCard: React.FC<AboutMeType> = ({ title, description, image, bullets }) => {
   return (
-    <Card className="card-width shadow-lg--hover shadow mt-4 w-10 bg-light ">
+    <Card className="w-20 shadow-lg--hover shadow mt-4 bg-light  ">
       <CardBody className='w-10'>
         <div className="d-flex px-3">
-          <div className="pl-4">
+          <div className="pl-0 ">
             <div style={{ width: '200px', height: '200px', position: 'relative' }}>
-              <Image src={image} alt={title} fill className="rounded-full object-cover border-4 border-white" />
+              <Image src={image} alt={title} fill className="rounded-full object-cover border-4 border-white " />
             </div>
             <h3 className="text-dark mt-1  ">{title}</h3>
             <p className="description mt-3  ">{description}</p>
