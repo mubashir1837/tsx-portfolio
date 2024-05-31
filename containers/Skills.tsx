@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
 import React, { Fragment } from "react";
-import Fade from "react-reveal/Fade";
+
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
 import { skillsSection } from "../portfolio";
@@ -8,7 +8,7 @@ import { skillsSection } from "../portfolio";
 const Skills = () => {
   return (
     skillsSection && (
-      <Fade bottom duration={2000}>
+     
         <Container className="text-center my-5 section section-lg ">
           <h1 className="h1 text-black">{skillsSection.title}</h1>
           <p className="lead text-dark">{skillsSection.subTitle}</p>
@@ -47,7 +47,7 @@ const Skills = () => {
             );
           })}
         </Container>
-      </Fade>
+    
     )
   );
 };
