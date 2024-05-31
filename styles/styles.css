@@ -1,4 +1,3 @@
-
 body > div:first-child {
   overflow-x: hidden;
 }
@@ -7,60 +6,6 @@ body{
   background: linear-gradient(to right, #f5937a, #feb47b, #8eaeeb, #9cebe5);
     height: 100vh;
     margin: 0;
-}
-/* styles.css */
-/* styles.css */
-
-/* General container styling */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* Card styling */
-.card {
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  margin: 2rem 0;
-}
-
-/* Image styling */
-.card-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 4px solid white;
-}
-
-/* Responsive width for large screens */
-@media (min-width: 1024px) {
-  .card {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* Flexbox utility classes */
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.space-x-4 > * + * {
-  margin-left: 1rem;
-}
-
-.space-y-4 > * + * {
-  margin-top: 1rem;
 }
 
 
