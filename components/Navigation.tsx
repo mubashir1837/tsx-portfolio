@@ -25,7 +25,7 @@ const Navigation = () => {
                 {greetings.name}
               </h2>
             </NavbarBrand>
-            <button className="navbar-toggler" aria-label="navbar_toggle" id="navbar_global">
+            <button className="navbar-toggler ml-auto" aria-label="navbar_toggle" id="navbar_global">
               <span className="navbar-toggler-icon" />
             </button>
             <UncontrolledCollapse
