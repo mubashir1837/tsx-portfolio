@@ -1,5 +1,4 @@
 import emoji from "react-easy-emoji";
-import { AboutMeType } from './types/sections';
 import {
   EducationType,
   ExperienceType,
@@ -10,6 +9,7 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  AboutMeType
   
 } from "./types/sections";
 
@@ -366,12 +366,12 @@ export const projects: ProjectType[] = [
   {
     name: "Ecommerce Website",
     desc: "This is and ecommerce website designed with HTML, CSS and JavaScript",
-    link: "https://ecommerce-m.vercel.app",
+    link: "https://shopppings.vercel.app",
   },
   {
     name: "Bioinformatics",
     desc: "I completed multiple projects by using deep learning and machinelearning in Bioinformatics.",
-    link: "/",
+    link: "https://github.com/mubashir1837/iris_classfication",
   },
   {
     name: "Food ordering app",
