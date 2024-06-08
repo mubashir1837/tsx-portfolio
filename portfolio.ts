@@ -36,7 +36,7 @@ export const aboutMeInfo: AboutMeType[] = [
     bullets: [
       "Computational Biologist",
       "Web Developer",
-      "Passionate about Programming",
+      "Passionate about Programmer",
     ],
   },
 ];
@@ -50,11 +50,12 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   email: "mubashirali1837@gmail.com",
+  github: "https://github.com/mubashir1837",
+  whatsapp: "https://whatsapp.com/channel/0029Vag7XYc6LwHkv1yfVo3A",
   facebook: "https://www.facebook.com/profile.php?id=100089259276299&mibextid=kFxxJD",
   instagram: "https://www.instagram.com/mubashir_aliyaar_37?igsh=MW0zb3c4Mm0xNTNxaw==",
-  twitter: "https://x.com/MubashirAli1837?s=08",
-  github: "https://github.com/mubashir1837",
   linkedin: "https://www.linkedin.com/in/mubashirali8",
+ 
 };
 
 export const skillsSection = {

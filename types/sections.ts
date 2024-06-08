@@ -1,4 +1,4 @@
-export type SEODataType = {
+export interface SEODataType {
   title: string;
   author?: string;
   description?: string;
@@ -7,7 +7,6 @@ export type SEODataType = {
   keywords: string[];
 };
 
-// https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures
 
 export type SocialLinksType = {
   [link: string]: string;
@@ -15,7 +14,7 @@ export type SocialLinksType = {
 
 // * HERO SECTION
 
-export type GreetingsType = {
+export interface GreetingsType  {
   name: string;
   title: string;
   description?: string;
@@ -23,7 +22,7 @@ export type GreetingsType = {
 };
 
 // * ABOUT ME
-export interface AboutMeType {
+export interface AboutMeType  {
   title: string;
   description: string;
   image: string;

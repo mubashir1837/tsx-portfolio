@@ -11,7 +11,7 @@ const SocialLinks = () => {
           color="white"
           rel="noopener"
           aria-label="URL"
-          href={socialLinks.url}
+          href={`mailto:${socialLinks.email}`}
           target="_blank"
         >
           <span className="btn-inner--icon">
@@ -19,6 +19,35 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+       {socialLinks.whatsapp && (
+        <Button
+          className="btn-icon-only rounded-circle  ml-1"
+          color="success"
+          href={socialLinks.whatsapp}
+          rel="noopener"
+          aria-label="whatsapp"
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-whatsapp fa-lg" />
+          </span>
+        </Button>
+      )}
+       {socialLinks.github && (
+        <Button
+          className="btn-icon-only rounded-circle  ml-1"
+          color="secondary"
+          href={socialLinks.github}
+          rel="noopener"
+          aria-label="Github"
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-github fa-lg" />
+          </span>
+        </Button>
+      )}
+      
       {socialLinks.linkedin && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -28,25 +57,12 @@ const SocialLinks = () => {
           href={socialLinks.linkedin}
           target="_blank"
         >
-          <span className="btn-inner--icon">
+          <span className="btn-inner--icon ">
             <i className="fa fa-linkedin" />
           </span>
         </Button>
       )}
-      {socialLinks.github && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="github"
-          href={socialLinks.github}
-          rel="noopener"
-          aria-label="Github"
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-github" />
-          </span>
-        </Button>
-      )}
+     
       {socialLinks.instagram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -75,20 +91,7 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
-      {socialLinks.twitter && (
-        <Button
-          className="btn-icon-only rounded-circle"
-          color="twitter"
-          href={socialLinks.twitter}
-          target="_blank"
-          rel="noopener"
-          aria-label="Twitter"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-twitter" />
-          </span>
-        </Button>
-      )}
+      
     </div>
   );
 };

@@ -8,7 +8,9 @@ import { Container, Row, Col } from 'reactstrap';
 const AboutMe: React.FC = () => {
   return (
     aboutMeInfo && (
+      <Col className="order-lg-1" lg="10"  md={{ size: 14, offset: 1 }}>
         <section className="section pb-0 my-5">
+          
           <Container>
             <div className="d-flex px-3">
               <div>
@@ -22,13 +24,15 @@ const AboutMe: React.FC = () => {
             </div>
             <Row className="row-grid align-items-center">
               {aboutMeInfo.map((info, index) => (
-                <Col className="order-lg-1" lg="6" key={index}>
+                     <div key={index}>
                   <AboutMeCard {...info} />
-                </Col>
+                  </div>
               ))}
             </Row>
           </Container>
+          
         </section>
+        </Col>
       
     )
   );
