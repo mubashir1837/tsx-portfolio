@@ -36,7 +36,7 @@ export const aboutMeInfo: AboutMeType[] = [
     bullets: [
       "Computational Biologist",
       "Web Developer",
-      "Passionate about Programmer",
+      "Passionate  Programmer",
     ],
   },
 ];

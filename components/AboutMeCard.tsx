@@ -15,7 +15,7 @@ const AboutMeCard: React.FC<AboutMeType> = ({ title, description, image, bullets
               <Image src={image} alt={title} fill className="rounded-full object-cover border-4 border-white "  />
             </div>
             <h3 className="text-dark mt-1  ">{title}</h3>
-            <p className="description mt-3  ">{description}</p>
+            <p className="description mt-3 text-black" style={{fontSize: '17px'}}>{description}</p>
             <ul>
               {bullets ? bullets.map((bullet, index) => <li key={index}>{bullet}</li>) : null}
             </ul>
