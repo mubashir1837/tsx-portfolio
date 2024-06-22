@@ -1,13 +1,12 @@
 import React from "react";
 import { Card, CardBody, Badge } from "reactstrap";
 import { FiverrType } from "../types/sections";
-import Fade from "react-reveal/Fade";
 
 const FiverrCard = ({ name, jobTitle, description, url }: FiverrType) => {
   return (
     <Card className="shadow-lg--hover shadow mt-4 bg-light">
       <CardBody>
-        <a href={url} rel="nofollow" target="_blank" style={{ display: "inline-block" }}>
+        <a href={url} rel="noreferrer" target="_blank" style={{ display: "inline-block" }}>
           <div className="d-flex px-3">
             <div className="pl-4">
               <h5 className="text-dark">{name}</h5>
