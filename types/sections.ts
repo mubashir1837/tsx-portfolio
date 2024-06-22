@@ -97,3 +97,12 @@ export type FeedbackType = {
 };
 
 
+// types/sections.ts
+export interface FiverrType {
+  name: string;
+  jobTitle: string;
+  description: string;
+  url: string;
+};
+
+

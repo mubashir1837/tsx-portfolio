@@ -3,6 +3,7 @@ import {
   EducationType,
   ExperienceType,
   FeedbackType,
+  FiverrType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -418,6 +419,14 @@ export const projects: ProjectType[] = [
      " ⭐⭐⭐⭐⭐",
   },  
  ];
+
+ export const fiverrInfo: FiverrType = {
+  name: "Mubashir Ali",
+  jobTitle: "Web Developer, Programmer & Bioinformatics Student",
+  description:
+    "I'm a multifaceted individual weaving code into artistry, shaping digital landscapes with precision and creativity. As a web developer, programmer, and bioinformatics student, I thrive at the intersection of technology and innovation, sculpting tomorrow's possibilities with every keystroke.",
+  url: "https://www.fiverr.com/mubashir183"
+};
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
